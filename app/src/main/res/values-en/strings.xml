@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherForeca</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="search">Search</string>
+    <string name="nothing_found">Nothing found</string>
+</resources>

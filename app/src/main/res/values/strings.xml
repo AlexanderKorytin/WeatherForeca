@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WeatherForeca</string>
+    <string name="search" translatable="true">Поиск</string>
+    <string name="something_went_wrong" translatable="true">Что-то пошло не так!</string>
+    <string name="nothing_found" translatable="true">Ничего не найдено</string>
+</resources>
