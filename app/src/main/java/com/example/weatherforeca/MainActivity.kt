@@ -156,14 +156,12 @@ class MainActivity : AppCompatActivity() {
                 ) {
                     if (response.body()?.current != null) {
                         val message =
-                            "${location.name} t: ${response.body()?.current?.temperature} " +
-                                    "(Ощущается как ${response.body()?.current?.feelsLikeTemp}) " +
-                                    "скорость ветра: ${response.body()?.current?.windSpeed} м/с " +
+                            "${location.name} t: ${response.body()?.current?.temperature}\n" +
+                                    "(Ощущается как ${response.body()?.current?.feelsLikeTemp})\n" +
+                                    "скорость ветра: ${response.body()?.current?.windSpeed} м/с\n" +
                                     "видимость: ${response.body()?.current?.visibility} м"
 
-                        val toast = Toast.makeText(applicationContext, message, Toast.LENGTH_LONG)
-                        toast.setGravity(Gravity.FILL_HORIZONTAL, 0,0)
-                        toast.show()
+                        showMessage(message,"")
                     }
                 }
 
